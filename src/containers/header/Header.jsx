@@ -3,18 +3,19 @@ import centerImage from "../../assets/centerImage.png";
 import VectorOpenInNew_b from "../../assets/VectorOpenInNew_b.png";
 import VectorOpenInNew_w from "../../assets/VectorOpenInNew_w.png";
 import VectorCrown from "../../assets/VectorCrown.png";
-import './header.css';
+import "./header.css";
+import { OINP } from "../../components";
 
 const Tag = (props) => {
-  <>
-    <div className="tag">
-      <button>
-        <p>{props.text}</p>
-        <img src={props.image} alt="tag img" />
-      </button>
-    </div>
-  </>
-}
+    <>
+        <div className="tag">
+            <button>
+                <p>{props.text}</p>
+                <img src={props.image} alt="tag img" />
+            </button>
+        </div>
+    </>;
+};
 
 const Header = () => {
     return (
@@ -33,32 +34,36 @@ const Header = () => {
                         businesses grow and succeed in the digital world.
                     </p>
                     <div className="digencial__header-content_desc-tags">
-                    {/* <Tag text="START PROJECT" image={VectorOpenInNew_b}/> */}
-                    <button>
-                        <p>START PROJECT</p>
-                        <img src={VectorOpenInNew_b} alt="Open in new Window" />
-                    </button>
-                    
-                    <div className="digencial__header-content_desc-tags_year">
-                        <p>2023</p>
-                        <img src={VectorCrown} alt="Crown" />
+                        {/* <Tag text="START PROJECT" image={VectorOpenInNew_b}/> */}
+                        <OINP
+                            text="START PROJECT"
+                            background="white"
+                            textColor="back"
+                            image={VectorOpenInNew_b}
+                            borderColor="white"
+                        /> 
+                        <div className="digencial__header-content_desc-tags_year">
+                            <OINP
+                                text="2023"
+                                background=" rgba(0, 0, 0, 0.5)"
+                                textColor="orange"
+                                image={VectorCrown}
+                                borderColor="white"
+                            />
+                        </div>
                     </div>
+                </div>
+            </div>
+            <div className="digencial__header-forwardURL">
+                <div className="digencial__header-forwardURL_imageURL">
+                    <div>
+                        <img src={VectorOpenInNew_w} alt="open in new window" />
                     </div>
                 </div>
             </div>
             <div className="digencial__header-imageContainer">
                 <div className="digencial__header-imageContainer_image">
                     <img src={centerImage} alt="Center Face" />
-                </div>
-                <div className="digencial__header-imageContainer_imageURL">
-                    <button>
-                        <a href="">
-                            <img
-                                src={VectorOpenInNew_w}
-                                alt="Open in new Window"
-                            />
-                        </a>
-                    </button>
                 </div>
             </div>
         </div>

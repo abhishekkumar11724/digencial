@@ -5,6 +5,7 @@
     margin-top: 7rem;
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
     
 }
 .digencial__letsDiscuss-content {
@@ -60,4 +61,36 @@
     position: relative;
     top: calc(100% - 270px - 80px); 
     /* left: 100px;    */
+}
+.digencial__letsDiscuss-forwardLink {
+    
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    width: 160px;
+}
+
+@media screen and (max-width: 1210px) {
+    .digencial__letsDiscuss-content_heading h2 {
+        font-size: 70px;
+        line-height: 78px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .digencial__letsDiscuss-image img {
+        height: 150px;
+        width: 200px;
+    }
+    .digencial__letsDiscuss-content_heading h2 {
+        font-size: 48px;
+        line-height: 40px;
+        height: 100px;
+        width: 316px;
+    }
+    .digencial__letsDiscuss-forwardLink img {
+        height: 80px;
+    }
 }

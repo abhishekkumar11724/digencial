@@ -4,6 +4,7 @@ import VectorOpenInNew_orange from "../../assets/VectorOpenInNew_orange.png";
 import LetsDiscuss_Idea from "../../assets/LetsDiscuss_Idea.png";
 import Vector3Stars from "../../assets/Vector3Stars.png";
 import VectorOpenInNew_w from "../../assets/VectorOpenInNew_w.png";
+import forwardURL_img from "../../assets/forwardURL_img.png";
 import "./letsDiscuss.css";
 
 const LetsDiscuss = () => {
@@ -28,8 +29,11 @@ const LetsDiscuss = () => {
             <div className="digencial__letsDiscuss-image">
                 <img src={LetsDiscuss_Idea} alt="lets discuss idea" />
             </div>
-            <div className="digecial__letsDiscuss-forwardLink">
-                <img src={VectorOpenInNew_w} alt="open in new window" />
+            <div className="digencial__letsDiscuss-forwardLink">
+                
+                <img src={forwardURL_img} alt="open in new window" />
+
+                
             </div>
         </div>
     );

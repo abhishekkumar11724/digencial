@@ -12,10 +12,10 @@ import { Navbar, Carousel, HappyClients } from "./components";
 function App() {
     return (
         <div className="App">
-            <div className="blur__bg">
+            
                 <Navbar />
                 <Header />
-            </div>
+            
             <Carousel />
             <Services />
             <WhatWeDeliver />

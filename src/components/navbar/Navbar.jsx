@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Unionlogo from "../../assets/Unionlogo.png";
 import Menu from "../../assets/Menu_3line.png";
 import "./navbar.css";
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
-
+    
     return (
         <div className="digencial__navbar">
             <div className="digencial__navbar-links">

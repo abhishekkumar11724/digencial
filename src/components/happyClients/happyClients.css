@@ -82,3 +82,27 @@ color: #FF00A8;
 .digencial__happyClients-clients img {
     height: 160px;
 }
+@media screen and (max-width: 1200px) {
+    .digencial__happyClients-content h2 {
+        height: 48px;
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+@media screen and (max-width: 910px) {
+    .digencial__happyClients-clients {
+        height: 80px;
+        width: 195px;
+    }
+    .digencial__happyClients-clients img {
+        height: 80px;
+    }
+    .digencial__happyClients-clients p {
+        font-size: 16px;
+    }
+    .digencial__happyClients-clients h3 {
+        font-size: 24px;
+        width: 24px;
+        height: 50px;
+    }
+}

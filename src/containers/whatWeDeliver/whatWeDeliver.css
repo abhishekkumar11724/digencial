@@ -34,6 +34,9 @@
 .digencial__wwd-content {
     flex-direction: row;
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .digencial__wwd-content div {
     display: flex;
@@ -81,5 +84,10 @@
     width: 60px;
 
 }
-
+@media screen and (max-width: 1180px) {
+    .digencial__wwd-heading img {
+        width: 430px;
+    height: 100px;
+    }
+}
 

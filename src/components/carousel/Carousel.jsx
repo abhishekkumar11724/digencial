@@ -3,7 +3,7 @@ import "./carousel.css";
 import VectorStar from "../../assets/VectorStar.png";
 const Carousel = () => {
     return (
-        <div className="digencial__carousel">
+        <div className="digencial__carousel section__padding">
             <ul>
                 <li>
                     <img src={VectorStar} alt="star" />
