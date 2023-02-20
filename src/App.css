@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body {
+    background: var(--bg-color);
+}
+.blur__bg {
+    backdrop-filter: blur(20px);
+}
+a {
+    color: unset;
+    text-decoration: none;
+}
+.section__padding {
+    padding: 0 5rem;
+}
+.section__margin {
+    margin: 0 5rem;
+}
+.digencial__app-letsDiscuss {
+    background: url('./assets/morphing-diamonds.png') linear-gradient(rgba(225,225,225,1),rgba(225,225,225,1));
+    z-index: 1;
+}

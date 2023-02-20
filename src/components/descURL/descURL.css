@@ -1,0 +1,33 @@
+.digencial__descURL {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #FFFFFF;
+
+}
+.digencial__descURL h3{
+    height: 64px;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 64px;
+
+    color: #FFFFFF;
+
+}
+.digencial__descURL img {
+    width: 75px;
+    padding: 10px;
+    margin-right: 10px;
+}
+.digencial__descURL p {
+    color: #FFFFFF;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+}

@@ -1,0 +1,63 @@
+.digencial__letsDiscuss {
+    background: #FF8A00;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 80px 80px 0px 0px;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+.digencial__letsDiscuss-content {
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.digencial__letsDiscuss-content_heading {
+    display: flex;
+    flex-direction: column;
+}
+.digencial__letsDiscuss-content_heading img {
+    width: 122px;
+    height: 110px;
+    align-self: flex-end;
+    position: relative;
+    top: 40px;
+    left: -40px;
+}
+.digencial__letsDiscuss-content_heading h2 {
+    height: 168px;
+    right: 625px;
+    top: 4969px;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 84px;
+    /* or 105% */
+
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+.digencial__letsDiscuss-content_links {
+    padding-top: 5.3125rem;
+    padding-bottom: 10.9375rem;
+}
+.digencial__letsDiscuss-content_links p:nth-last-child(1) {
+    height: 24px;
+    padding: 8px 0 0 0;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    color: #FFFFFF;
+}
+.digencial__letsDiscuss-image img{
+    height: 270.05px;
+    width: 366.70px;
+
+    position: relative;
+    top: calc(100% - 270px - 80px); 
+    /* left: 100px;    */
+}

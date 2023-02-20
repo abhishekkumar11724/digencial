@@ -1,0 +1,30 @@
+.digencial__oinp {
+    padding-top: 1rem;
+}
+.digencial__oinp button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+
+    /* position: absolute; */
+    width: 234px;
+    height: 48px;
+    left: 120px;
+    top: 3981px;
+    
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+.digencial__oinp p {
+    font-family: var(--font-family);
+    height: 28px;
+  
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    letter-spacing: 0.02em;
+}

@@ -1,0 +1,31 @@
+.digencial__services {
+}
+.digencial__services-content {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.digencial__services-content h2 {
+    height: 84px;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 84px;
+    /* identical to box height, or 105% */
+
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+.digencial__services-content p {
+
+    width: 467px;
+    height: 192px;
+    padding-top: 1.5rem;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+}

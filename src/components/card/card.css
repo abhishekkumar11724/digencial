@@ -1,0 +1,37 @@
+.digencial__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: stretch; */
+    padding: 40px;
+    /* height: inherit; */
+}
+
+.digencial__card h3 {
+    font-family: var(--font-family);
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+}
+.digencial__card .digencial__card-content {
+    font-family: var(--font-family);
+    color: white;
+    max-width: 580px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+}
+.digencial__card p span {
+    font-weight: 700;
+}
+.digencial__card h4 {
+    font-family: var(--font-family);
+    color: white;
+    text-align: end;
+    left: 100%;
+    top: 100%;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+}
