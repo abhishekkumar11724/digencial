@@ -3,7 +3,6 @@ import { OINP } from "../../components";
 import VectorOpenInNew_orange from "../../assets/VectorOpenInNew_orange.png";
 import LetsDiscuss_Idea from "../../assets/LetsDiscuss_Idea.png";
 import Vector3Stars from "../../assets/Vector3Stars.png";
-import VectorOpenInNew_w from "../../assets/VectorOpenInNew_w.png";
 import forwardURL_img from "../../assets/forwardURL_img.png";
 import "./letsDiscuss.css";
 
@@ -21,6 +20,7 @@ const LetsDiscuss = () => {
                         background="white"
                         borderColor="white"
                         textColor="#FF8A00"
+                        width={229}
                         image={VectorOpenInNew_orange}
                     />
                     <p>24 Hour Response guaranteed</p>
@@ -30,10 +30,7 @@ const LetsDiscuss = () => {
                 <img src={LetsDiscuss_Idea} alt="lets discuss idea" />
             </div>
             <div className="digencial__letsDiscuss-forwardLink">
-                
                 <img src={forwardURL_img} alt="open in new window" />
-
-                
             </div>
         </div>
     );

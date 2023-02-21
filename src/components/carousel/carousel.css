@@ -70,3 +70,9 @@
         height: 64px;
     }
 }
+@media screen and (max-width: 890px) {
+    .digencial__carousel p{
+        font-size: 20px;
+        /* line-height: 24px; */
+    }
+}

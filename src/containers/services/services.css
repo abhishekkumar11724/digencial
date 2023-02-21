@@ -29,3 +29,34 @@
 
     color: #FFFFFF;
 }
+@media screen and (max-width: 890px) {
+    .digencial__services-content {
+        display: flex;
+        /* width: 280px; */
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .digencial__services-content div {
+        width: 280px;
+    }
+    .digencial__services-content h2{
+        /* width: 219px; */
+        height: 32px;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: start;
+    }
+    .digencial__services-content p {
+        width: 280px;
+        height: 200px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .digencial__services-content_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

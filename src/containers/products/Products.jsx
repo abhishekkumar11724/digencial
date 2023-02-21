@@ -14,7 +14,7 @@ const Products = () => {
         />
     );
     return (
-        <div className="digencial__products section__padding">
+        <div className="digencial__products section__padding" id="Projects">
             <div className="digencial__products-heading">
                 <h2>SELECTED WORKS</h2>
                 <p>
@@ -53,7 +53,7 @@ const Products = () => {
                 </div>
             </div>
             <div className="digencial__products-moreContent">
-              <p>and many more...</p>
+                <p>and many more...</p>
             </div>
         </div>
     );

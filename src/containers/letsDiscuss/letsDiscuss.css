@@ -94,3 +94,53 @@
         height: 80px;
     }
 }
+@media screen and (max-width: 890px) {
+    .digencial__letsDiscuss {
+        /* display: flex; */
+        width: 281px;
+        height: 205.75px;
+        margin: auto;
+        margin-top: 25.25px;
+        justify-content: space-between;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .digencial__letsDiscuss-content{
+       padding: 0 0 0 25px;
+       height: 100px;
+    }
+    .digencial__letsDiscuss-content_heading h2 {
+        width: 201px;
+        height: 64px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .digencial__letsDiscuss-content_heading img {
+            height: 27.5px;
+            width: 30.5px;
+            left: -20px;
+            top: 5px;
+    }
+    .digencial__letsDiscuss-image {
+        display: none;
+    }
+    .digencial__letsDiscuss-forwardLink {
+        transform: translate(-35%,-5%);
+        height: 40px;
+        justify-content: flex-end;
+    }
+    .digencial__letsDiscuss-forwardLink img {
+        width: 40px;
+        height: 40px;
+    }
+    .digencial__letsDiscuss-content_links {
+        height: 100px;
+        padding: 0;
+    }
+    .digencial__letsDiscuss-content_links p{
+        font-size: 24px;
+    }
+    .digencial__letsDiscuss-content_links p:nth-last-child(1){
+        font-size: 12px;
+        text-align: center;
+    }
+}

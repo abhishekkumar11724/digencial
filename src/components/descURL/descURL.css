@@ -32,3 +32,8 @@
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 890px) {
+    .digencial__descURL {
+        width: 281px;
+    }
+}

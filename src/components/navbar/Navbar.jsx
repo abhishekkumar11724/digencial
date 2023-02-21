@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Unionlogo from "../../assets/Unionlogo.png";
+import logo_white from "../../assets/logo_white.png";
 import Menu from "../../assets/Menu_3line.png";
 import "./navbar.css";
 
@@ -18,7 +18,7 @@ const Navbar = () => {
                     </p>
                 </div>
                 <div className="digencial__navbar-links_logo">
-                    <img src={Unionlogo} alt="Unionlogo" />
+                    <img src={logo_white} alt="logo_white" />
                     <p>Digencial</p>
                 </div> 
                 <div className="digencial__navbar-links_container">
@@ -32,15 +32,24 @@ const Navbar = () => {
             </div>
 
             <div className="digencial__navbar-menu">
-                <img
-                    src={Menu}
-                    alt="menu"
-                    onClick={() => setToggleMenu(true)}
-                />
+                {toggleMenu ? (
+                    <img
+                        src={Menu}
+                        alt="menu"
+                        onClick={() => setToggleMenu(false)}
+                    />
+                ):
+                (
+                    <img
+                        src={Menu}
+                        alt="menu"
+                        onClick={() => setToggleMenu(true)}
+                    />
+                )
+            }
                 {toggleMenu && (
                     <div
-                        className="digencial__navbar-small"
-                        onClick={() => setToggleMenu(false)}
+                        className="digencial__navbar-menu_container slide-bottom"
                     >
                         <ul>
                             <li>

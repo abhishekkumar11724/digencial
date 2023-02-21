@@ -35,3 +35,27 @@
     font-size: 60px;
     line-height: 64px;
 }
+@media screen and (max-width: 890px) {
+    .digencial__card {
+        padding: 28px;
+    }
+    .digencial__card h3 {
+        width: 155px;
+        height: 24px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .digencial__card .digencial__card-content {
+        width: 239px;
+        /* height: 176px; */
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .digencial__card h4 {
+        /* width: 55px; */
+        height: 24px;
+        font-size: 20px;
+        line-height: 24px;
+        
+    }
+}
