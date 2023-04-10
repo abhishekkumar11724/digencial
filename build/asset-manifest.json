@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7d52775c.css",
+    "main.js": "/static/js/main.fb98f018.js",
+    "static/media/centerImage.png": "/static/media/centerImage.e57a6ac44d61687a60fb.png",
+    "static/media/WhatWeDeliver_img.png": "/static/media/WhatWeDeliver_img.38d7965dd827ba19d713.png",
+    "static/media/LetsDiscuss_Idea.png": "/static/media/LetsDiscuss_Idea.ec874cde74af0eb7165e.png",
+    "index.html": "/index.html",
+    "main.7d52775c.css.map": "/static/css/main.7d52775c.css.map",
+    "main.fb98f018.js.map": "/static/js/main.fb98f018.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d52775c.css",
+    "static/js/main.fb98f018.js"
+  ]
+}
