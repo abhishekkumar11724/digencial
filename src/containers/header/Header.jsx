@@ -41,6 +41,7 @@ const Header = () => {
                             textColor="back"
                             image={VectorOpenInNew_b}
                             borderColor="white"
+                            url="66tools.ml"
                         /> 
                         <div className="digencial__header-content_desc-tags_year">
                             <OINP

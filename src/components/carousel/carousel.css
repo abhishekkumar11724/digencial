@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
-    animation: slide-in 20s linear infinite normal;
+    animation: slide-in 10s linear infinite normal;
     /* animation-delay: 5s; */
 }
 .digencial__carousel li {
@@ -76,3 +76,8 @@
         /* line-height: 24px; */
     }
 }
+@media screen and (max-width: 890px) {
+    .digencial__carousel li {
+        width: fit-content;
+    }
+ }

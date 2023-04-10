@@ -101,3 +101,11 @@
     }
     
 }
+
+@media screen and (max-width: 465px) {
+    .digencial__products {
+        padding-left: 10%;
+        /* padding-right: ; */
+    }
+
+}

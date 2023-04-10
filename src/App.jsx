@@ -12,10 +12,9 @@ import { Navbar, Carousel, HappyClients } from "./components";
 function App() {
     return (
         <div className="App">
-            
-                <Navbar />
-                <Header />
-            
+            <Navbar />
+            <Header />
+
             <Carousel />
             <Services />
             <WhatWeDeliver />
