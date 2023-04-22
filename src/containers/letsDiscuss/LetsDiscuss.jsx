@@ -15,14 +15,16 @@ const LetsDiscuss = () => {
                     <h2>Let’s Discuss Your Ideas</h2>
                 </div>
                 <div className="digencial__letsDiscuss-content_links">
-                    <OINP
-                        text="Discuss Now"
-                        background="white"
-                        borderColor="white"
-                        textColor="#FF8A00"
-                        width={229}
-                        image={VectorOpenInNew_orange}
-                    />
+                    <a href="https://forms.gle/YjekLVjBVg59NXg28">
+                        <OINP
+                            text="Discuss Now"
+                            background="white"
+                            borderColor="white"
+                            textColor="#FF8A00"
+                            width={229}
+                            image={VectorOpenInNew_orange}
+                        />
+                    </a>
                     <p>24 Hour Response guaranteed</p>
                 </div>
             </div>
@@ -30,7 +32,9 @@ const LetsDiscuss = () => {
                 <img src={LetsDiscuss_Idea} alt="lets discuss idea" />
             </div>
             <div className="digencial__letsDiscuss-forwardLink">
-                <img src={forwardURL_img} alt="open in new window" />
+                <a href="https://forms.gle/YjekLVjBVg59NXg28">
+                    <img src={forwardURL_img} alt="open in new window" />
+                </a>
             </div>
         </div>
     );

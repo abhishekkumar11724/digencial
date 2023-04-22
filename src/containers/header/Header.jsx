@@ -35,14 +35,16 @@ const Header = () => {
                     </p>
                     <div className="digencial__header-content_desc-tags">
                         {/* <Tag text="START PROJECT" image={VectorOpenInNew_b}/> */}
-                        <OINP
-                            text="START PROJECT"
-                            background="white"
-                            textColor="back"
-                            image={VectorOpenInNew_b}
-                            borderColor="white"
-                            url="66tools.ml"
-                        /> 
+                        <a href="https://forms.gle/YjekLVjBVg59NXg28">
+                            <OINP
+                                text="START PROJECT"
+                                background="white"
+                                textColor="back"
+                                image={VectorOpenInNew_b}
+                                borderColor="white"
+                                url="66tools.ml"
+                            />
+                        </a>
                         <div className="digencial__header-content_desc-tags_year">
                             <OINP
                                 text="2023"

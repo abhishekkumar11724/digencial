@@ -3,8 +3,8 @@ import "./services.css";
 import { DescURL } from "../../components";
 import VectorOpenInNew_w from "../../assets/VectorOpenInNew_w.png";
 const Services = () => {
-  const width = window.innerWidth;
-  // console.log(width);
+    const width = window.innerWidth;
+    // console.log(width);
     return (
         <div className="digencial__services section__padding" id="Services">
             <div className="digencial__services-content">
@@ -22,28 +22,72 @@ const Services = () => {
                     </p>
                 </div>
             </div>
-            {width >890? 
-            (<div><DescURL
-              text="UI/UX Design"
-              textSize="60px"
-              image={VectorOpenInNew_w}
-              imageWidth="75px"
-              />
-              <DescURL text="Graphic Design" image={VectorOpenInNew_w} />
-              <DescURL text="Web Development" image={VectorOpenInNew_w} />
-              <DescURL text="Social Media Managing" image={VectorOpenInNew_w} /></div>)
-            :(<div className="digencial__services-content_mobile">
-              <DescURL
-            text="UI/UX Design"
-            textSize={20}
-            image={VectorOpenInNew_w}
-            imageWidth={40}
-            />
-            <DescURL text="Graphic Design" textSize={20} image={VectorOpenInNew_w} imageWidth={40}/>
-            <DescURL text="Web Development" textSize={20} image={VectorOpenInNew_w} imageWidth={40}/>
-            <DescURL text="Social Media Managing" textSize={20} image={VectorOpenInNew_w} imageWidth={40}/>
-            </div>)
-            }
+            {width > 890 ? (
+                <div href="https://forms.gle/YjekLVjBVg59NXg28" v>
+                    <a>
+                        <DescURL
+                            text="UI/UX Design"
+                            textSize="60px"
+                            image={VectorOpenInNew_w}
+                            imageWidth="75px"
+                        />
+                    </a>
+                    {/* https://forms.gle/YjekLVjBVg59NXg28 */}
+                    <a href="https://forms.gle/YjekLVjBVg59NXg28">
+                        <DescURL
+                            text="Graphic Design"
+                            image={VectorOpenInNew_w}
+                        />
+                    </a>
+                    <a href="https://forms.gle/YjekLVjBVg59NXg28">
+                        <DescURL
+                            text="Web Development"
+                            image={VectorOpenInNew_w}
+                        />
+                    </a>
+                    <a href="https://forms.gle/YjekLVjBVg59NXg28">
+                        <DescURL
+                            text="Social Media Managing"
+                            image={VectorOpenInNew_w}
+                        />
+                    </a>
+                </div>
+            ) : (
+                <div className="digencial__services-content_mobile">
+                    <a href="https://forms.gle/YjekLVjBVg59NXg28">
+                        <DescURL
+                            text="UI/UX Design"
+                            textSize={20}
+                            image={VectorOpenInNew_w}
+                            imageWidth={40}
+                        />
+                    </a>
+                    <a href="https://forms.gle/YjekLVjBVg59NXg28">
+                        <DescURL
+                            text="Graphic Design"
+                            textSize={20}
+                            image={VectorOpenInNew_w}
+                            imageWidth={40}
+                        />
+                    </a>
+                    <a href="https://forms.gle/YjekLVjBVg59NXg28">
+                        <DescURL
+                            text="Web Development"
+                            textSize={20}
+                            image={VectorOpenInNew_w}
+                            imageWidth={40}
+                        />
+                    </a>
+                    <a href="https://forms.gle/YjekLVjBVg59NXg28">
+                        <DescURL
+                            text="Social Media Managing"
+                            textSize={20}
+                            image={VectorOpenInNew_w}
+                            imageWidth={40}
+                        />
+                    </a>
+                </div>
+            )}
         </div>
     );
 };

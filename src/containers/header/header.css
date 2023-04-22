@@ -6,6 +6,9 @@
     flex-direction: column;
     /* z-index: 100; */
 }
+.digencial__header button {
+    cursor: pointer;
+}
 .digencial__header-content {
     display: flex;
     justify-content: space-evenly;
@@ -24,9 +27,9 @@
     font-size: 140px;
     line-height: 144px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-.digencial__header-content_heading  p {
+.digencial__header-content_heading p {
     width: 626px;
     height: 98px;
     font-family: var(--font-family);
@@ -34,14 +37,14 @@
     font-weight: 600;
     font-size: 40px;
     line-height: 49px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 .digencial__header-content_desc {
     flex: 1;
     display: flex;
     flex-direction: column;
     margin-left: 30px;
-    padding:0px 50px 0 0;
+    padding: 0px 50px 0 0;
     /* padding-left: 20px; */
 }
 .digencial__header-content_desc > p {
@@ -63,9 +66,7 @@
     padding: 5px;
 }
 
-
-
-.digencial__header-imageContainer{
+.digencial__header-imageContainer {
     /* margin-top: 10rem; */
     display: flex;
     align-items: center;
@@ -73,7 +74,7 @@
     /* height: 798px; */
     /* width: 1280px; */
 }
-.digencial__header-imageContainer_image img{
+.digencial__header-imageContainer_image img {
     /* height: 50vh; */
     width: 80vw;
 }
@@ -95,7 +96,7 @@
     width: 160px;
     border: 2px;
     border-radius: 50%;
-    background: linear-gradient(91.42deg, #909AFF 0.34%, #FF94FB 99.54%);
+    background: linear-gradient(91.42deg, #909aff 0.34%, #ff94fb 99.54%);
 }
 .digencial__header-forwardURL_imageURL div {
     background-color: #070707;
@@ -104,7 +105,7 @@
     border-radius: 50%;
     display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 @media screen and (max-width: 1350px) {
     .digencial__header-content_heading h2 {
@@ -114,7 +115,7 @@
     }
     .digencial__header-content_heading p {
         font-size: 25px;
-    line-height: 29px;
+        line-height: 29px;
     }
     .digencial__header-content_desc {
         padding: 0;
@@ -125,7 +126,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        
     }
     .digencial__header-content_heading {
         align-items: center;
@@ -168,7 +168,7 @@
         height: 84px;
         margin-bottom: 47px;
     }
-    .digencial__header-content_desc> p {
+    .digencial__header-content_desc > p {
         font-weight: 300;
         font-size: 16px;
         text-align: left;
@@ -199,7 +199,6 @@
     .digencial__header-forwardURL_imageURL img {
         width: 18px;
         height: 18px;
-
     }
     .digencial__header-content_desc-tags {
         flex-direction: column;
